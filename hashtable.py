@@ -2,7 +2,7 @@ from hash import hash
 
 class HashTable:
 
-  def __init__(self, size):
+  def __init__(self, size=20):
     self.size = size
     self.data = [None] * self.size
     self.slots = [None] * self.size
